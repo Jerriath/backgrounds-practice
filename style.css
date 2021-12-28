@@ -123,10 +123,11 @@ ul {
 
 /*----- Main styles -----*/
 
-.container {
+main {
     width: 1440px;
     height: auto;
     margin: 0 auto;
+    margin-bottom: 0.6rem;
     display: grid;
     grid-template-areas:
         "main-section     main-section     main-section     main-section"
@@ -175,5 +176,39 @@ ul {
 /*----- Footer styles -----*/
 
 .footer {
+    width: 980px;
+    min-width: 980px;
+    margin: 0 auto;
+}
 
+.footer-item {
+    border-right: 1px solid rgb(201, 201, 201);
+    padding: 0 0.4rem;
+}
+
+.left {
+    float: left;
+    clear: left;
+    padding-top: 1rem;
+}
+
+.right {
+    float: right;
+    margin-top: -1rem;
+}
+
+.footer-nav {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.footer-font {
+    margin: 0;
+    font-size: 10px;
+    color: #6e6e6e;
+}
+
+.blue-font {
+    color: #08c !important;
 }
